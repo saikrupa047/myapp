@@ -1,0 +1,94 @@
+.jobCard
+{
+    box-shadow: 0px 4px 8px 0px rgba(0,0,0,0.2);
+    border-radius: 4px;
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    justify-content: space-around;
+    position: relative;
+    padding: 10px 5px 10px 10px;
+    margin: 10px;
+    color: rgb(85, 77, 77);
+    background-color: lavenderblush;
+}
+
+.jobCard:hover
+{
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.3);
+}
+
+.role
+{
+    text-size-adjust: auto;
+    text-decoration-style: solid;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width:100%;
+    height: auto;
+    padding: 2px;
+    margin: 2px;
+    display: block;
+}
+
+.company
+{
+    text-size-adjust: auto;
+    text-decoration-style: solid;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    width:100%;
+    height: auto;
+    padding: 5px 5px 5px 20px;
+    margin: 2px;
+    display: block;
+}
+
+.company_logo
+{
+    display: flex;
+    float: right;
+    margin-right: 30px;
+}
+
+/*-------------------------------------MODEL BOX----------------------------------*/
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

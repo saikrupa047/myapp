@@ -1,0 +1,17 @@
+.searchBar
+{
+    display:inline-block;
+    width: 500pt;
+    height: 25px;
+    border: 3px solid rgb(233, 176, 157);
+    box-shadow:1px 1px 3px 1px rgb(212, 114, 84);
+    background-color:rgb(255, 253, 245);
+    font-weight: 700;
+    color: rgb(85, 77, 77);
+    margin: 10px;
+    padding: 5px;
+    border-radius: 10px;
+    text-decoration-style: solid;
+    font-size: 20px;
+    font-family: sans-serif;
+}

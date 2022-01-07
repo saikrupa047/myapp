@@ -1,0 +1,39 @@
+.new-login {
+    background-color: lavenderblush;
+    padding: 1rem;
+    margin: 2rem auto;
+    width: 50rem;
+    max-width: 95%;
+    border-radius: 12px;
+    text-align: center;
+    box-shadow:1px 1px 3px 1px rgb(212, 114, 84);
+    border: 2px solid rgb(233, 176, 157);
+  }
+  
+  .new-login button {
+    font: inherit;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    border: 3px solid rgb(233, 176, 157);
+    background-color: lavenderblush;
+    color:rgb(85, 77, 77);
+    border-radius: 12px;
+    margin-right: 1rem;
+  }
+  
+  .new-login button:hover,
+  .new-login button:active {
+    background-color: rgb(233, 176, 157);
+    border-color: rgb(233, 176, 157);
+  }
+  
+  .new-login button.alternative {
+    color: #220131;
+    border-color: transparent;
+    background-color: transparent;
+  }
+  
+  .new-login button.alternative:hover,
+  .new-login button.alternative:active {
+    background-color: #ddb3f8;
+  }
