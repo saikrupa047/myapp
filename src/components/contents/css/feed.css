@@ -1,0 +1,9 @@
+.search {
+  width: 75%;
+}
+
+.searchbtn {
+  position: relative;
+  left: 60px;
+  top: -5px;
+}
