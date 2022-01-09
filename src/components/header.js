@@ -14,6 +14,7 @@ export default class Header extends React.Component {
             <Link to="login" id="login" className="endlink">
               Login
             </Link>
+            <br />
           </div>
         </header>
       </>
