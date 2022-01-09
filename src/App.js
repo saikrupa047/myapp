@@ -63,24 +63,13 @@
 // import logo from "./logo.svg";
 // import "./App.css";
 
-import { BrowserRouter, Routes, Route } from "react-router-dom";
 import "./App.css";
-import Feed from "./components/contents/Feed";
 import Home from "./components/home.js";
 
 function App() {
   return (
     <div>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />}>
-            <Route path="Feed" element={<Feed />} />
-            {/* <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contact />} />
-          <Route path="*" element={<NoPage />} /> */}
-          </Route>
-        </Routes>
-      </BrowserRouter>
+      <Home />
     </div>
   );
 }

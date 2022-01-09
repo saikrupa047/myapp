@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "./header";
 import Menu from "./menu";
-import Content from "./content";
 import "./css/home.css";
 
 export default class Home extends React.Component {

@@ -1,46 +1,20 @@
 import React from "react";
 import "./css/menu.css";
-import Content from "./content.js";
+import { Link, Outlet } from "react-router-dom";
+// import Header from "./header"
 
 export default class Menu extends React.Component {
-  state = {
-    index: 0,
-  };
-  menuHandler = (event) => {
-    // console.log(event.target.id);
-    // contentHandler(event.target.id);
-    this.setState({
-      index: parseInt(event.target.id),
-    });
-  };
-
   render() {
     return (
-      <div>
-        <div className="menu">
-          <div className="navbar">
-            <a id="0" href="#" onClick={this.menuHandler}>
-              masdhv
-            </a>
-            <a id="1" href="#" onClick={this.menuHandler}>
-              Feed
-            </a>
-            <a id="2" href="#" onClick={this.menuHandler}>
-              masdhv
-            </a>
-            <a id="3" href="#" onClick={this.menuHandler}>
-              masdhv
-            </a>
-            <a id="4" href="#" onClick={this.menuHandler}>
-              masdhv
-            </a>
-          </div>
+      <div className="menu">
+        <div className="navbar">
+          <Link to="/">Home</Link>
+          <Link to="feed">Feed</Link>
+          <Link to="feed">mad</Link>
+          <Link to="feed">Fmamd</Link>
+          <Link to="feed">Faca</Link>
         </div>
-
-        <div className="content">
-          {console.log(this.state.index)}
-          <Content menu_num={this.state.index} />
-        </div>
+        <Outlet />
       </div>
     );
   }
