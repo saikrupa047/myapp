@@ -19,6 +19,8 @@ function Feed() {
 
   return (
     <div>
+      <br />
+      <br />
       <Container>
         <input
           type="text"
@@ -33,6 +35,36 @@ function Feed() {
         <br />
         <br />
         <Row ls={4} md={3}>
+          <Col>
+            <JobCard
+              companyName={companyName[0]}
+              companyDescription={companyDescription[0]}
+            />
+          </Col>
+          <Col>
+            <JobCard
+              companyName={companyName[0]}
+              companyDescription={companyDescription[0]}
+            />
+          </Col>
+          <Col>
+            <JobCard
+              companyName={companyName[0]}
+              companyDescription={companyDescription[0]}
+            />
+          </Col>
+          <Col>
+            <JobCard
+              companyName={companyName[0]}
+              companyDescription={companyDescription[0]}
+            />
+          </Col>
+          <Col>
+            <JobCard
+              companyName={companyName[0]}
+              companyDescription={companyDescription[0]}
+            />
+          </Col>
           <Col>
             <JobCard
               companyName={companyName[0]}
