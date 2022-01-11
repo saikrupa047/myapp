@@ -1,11 +1,10 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { Button, Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import "./profile1.css";
-import "./JobCard";
-import JobCard from "./JobCard";
-import SearchBar from "./SearchBar";
-import "./css/feed.css";
+import "./contents/profile1.css";
+import "./contents/JobCard";
+import JobCard from "./contents/JobCard";
+import "./contents/css/feed.css";
 
 function Feed() {
   let companyName = ["Google"];

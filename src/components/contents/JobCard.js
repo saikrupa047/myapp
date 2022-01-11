@@ -3,24 +3,8 @@ import { Card, Button } from "react-bootstrap";
 import "./css/JobCard.css";
 import logo from "../Jobs.jpg";
 
-const Madhav = () => {
-  return (
-    <div>
-      <Button variant="primary"> APPLY </Button>
-    </div>
-  );
-};
-
 function JobCard(props) {
   const [state, setState] = useState(false);
-
-  const jsx = (
-    <Card.Body>
-      <Card.Title>{props.companyName}</Card.Title>
-      <Card.Text>Company description : {props.companyDescription}</Card.Text>
-      <Button variant="primary">VISIT WEBSITE</Button>
-    </Card.Body>
-  );
 
   return (
     <div>
