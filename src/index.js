@@ -5,6 +5,7 @@ import reportWebVitals from "./reportWebVitals";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./components/home";
 import Feed from "./components/Feed";
+import "bootstrap/dist/css/bootstrap.css";
 
 ReactDOM.render(
   <BrowserRouter>

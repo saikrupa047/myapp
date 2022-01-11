@@ -1,19 +1,18 @@
 import React from "react";
 import "./css/header.css";
 import logo from "./kakashi.jpg";
-import { Link, Outlet } from "react-router-dom";
+import { Button } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default class Header extends React.Component {
   render() {
     return (
       <>
         <header>
-          <div className="header_container">
-            <img src={logo} alt="imaef" />
+          <div className="container">
+            <img src={logo} style={{ width: "30px" }} alt="imaef" />
 
-            <Link to="login" id="login" className="endlink">
-              Login
-            </Link>
+            <Button id="login">Login</Button>
             <br />
           </div>
         </header>
