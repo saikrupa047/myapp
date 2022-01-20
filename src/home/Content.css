@@ -5,4 +5,5 @@
     display: flex;
     flex-direction: column;
     margin-left: 160px;
+    position: relative;
 }
