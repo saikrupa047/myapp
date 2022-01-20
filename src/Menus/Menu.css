@@ -5,44 +5,23 @@
     background-color: lavenderblush;
     flex-direction: column;
     flex-wrap: wrap;
-    float: left;
 }
-.menu_item
-{
-    background-color: ghostwhite;
-}
-.menu_item button {
-    display: inline;
-    color:rgb(85, 77, 77);
-    padding: 16px;
-    text-decoration: none;
-    width: 100px;
-  }
-   
-  .menu_item button.active {
-    background-color: rgb(233, 176, 157);
-    color: white;
-  }
-  
-  .menu_item button:hover:not(.active) {
-    background-color: #555;
-    color: white;
-  }
-  
-  @media screen and (max-width: 700px) {
-    .menu_item {
-      width: 100%;
-      height: auto;
-      position: relative;
-    }
-    .menu_item button {float: left;}
-    div.content {margin-left: 0;}
-  }
-  
-  @media screen and (max-width: 400px) {
-    .menu_item button {
-      text-align: center;
-      float: none;
-    }
 
+.menu_btn
+{
+  width: 120px;
+  height: 30px;
+  font-family: sans-serif;
+  font-weight: 500;
+  background-color: white;
+  margin: 5px;
+  padding:2px 4px;
+  border: 3px solid rgb(233, 176, 157);
+  box-shadow:1px 1px 3px 1px rgb(212, 114, 84);
+  border-radius: 5px;
+}
+
+.menu_btn:active
+{
+  box-shadow:2px 2px 6px 2px rgb(212, 114, 84);
 }

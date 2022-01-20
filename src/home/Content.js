@@ -6,7 +6,6 @@ function Content(props)
     return(
         <div className={classes}>
             {props.children}
-            <p>hiiiiiiiiiiiiii</p>
         </div>
     );
 }

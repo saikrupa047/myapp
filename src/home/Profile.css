@@ -1,0 +1,71 @@
+.primary_data
+{
+    border-radius: 5px;
+    background-color: lightgray;
+    border: 1px lightgray;
+    box-shadow: 4px rgba(0,0,0,0.2);
+    align-items: center;
+    margin: 10px;
+    padding: 2px 20px;
+}
+
+.detail
+{
+    margin: 5px;
+}
+
+.email
+{
+    padding: 5px;
+    margin: 10px;
+}
+
+.add-btn__container
+{
+    width: auto;
+    height: auto;
+    display: block;
+    align-items: center;
+    background-color: lavenderblush;
+    padding: 20px 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:space-around ;
+    border-radius: 5px;
+}
+
+.add-btn
+{
+    width: 120px;
+    height: 30px;
+    font-family: sans-serif;
+    font-weight: 500;
+    background-color: white;
+    margin: 5px;
+    padding:2px 4px;
+    border: 3px solid rgb(233, 176, 157);
+    box-shadow:1px 1px 3px 1px rgb(212, 114, 84);
+    border-radius: 5px;
+}
+
+.form__container
+{
+    border-radius: 5px;
+    width: 400px;
+    height: auto;
+    background-color: lavenderblush;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid rgb(233, 176, 157);
+}
+
+.input__box
+{
+    width: 150px;
+    height: 25px;
+    margin: 5px;
+}

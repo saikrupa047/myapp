@@ -11,7 +11,7 @@ class Menu extends React.Component
     render(){
         return(
             <div className='flex_container'>
-                <button onClick={this.menuClickHandler} value={this.props.title}>
+                <button onClick={this.menuClickHandler} value={this.props.title} className='menu_btn'>
                     {this.props.title}
                 </button>
                 </div>

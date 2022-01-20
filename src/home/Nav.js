@@ -5,6 +5,7 @@ import Notify from './Notify';
 import Login from './Login';
 function Nav(props)
 {
+    console.log(props);
     const signOutHandler=(value)=>{
         props.onSignOut(value);
         //console.log(value);
